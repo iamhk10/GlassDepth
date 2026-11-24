@@ -16,7 +16,10 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - uses: android-actions/setup-android@v3
+      # GitHub's ubuntu runner already ships the Android SDK, so no setup-android action is needed.
+      # This only makes sure the SDK licenses are accepted. "|| true" because `yes` ends the pipe early.
+      - name: Accept Android SDK licenses
+        run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
 
       - uses: gradle/actions/setup-gradle@v4
 
