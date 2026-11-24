@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GlassDepth</string>
+    <string name="tagline">Glass widgets and depth wallpapers. Free, no ads, all on your phone.</string>
+
+    <string name="step1_title">1 · Pick a photo</string>
+    <string name="step1_body">Choose any photo. The subject is cut out on your device and nothing is uploaded.</string>
+    <string name="btn_pick">Choose photo</string>
+    <string name="status_idle">No photo yet</string>
+    <string name="status_processing">Cutting out the subject…</string>
+    <string name="status_ready_depth">Ready. Subject found, depth effect is on.</string>
+    <string name="status_ready_flat">Ready. No clear subject found, so this photo will be flat.</string>
+    <string name="status_failed">Could not read this photo. Try another one.</string>
+
+    <string name="step2_title">2 · Set the live wallpaper</string>
+    <string name="step2_body">The glass clock sits behind your subject and shifts as you tilt the phone.</string>
+    <string name="label_clock_on">Show glass clock</string>
+    <string name="label_clock_y">Clock height</string>
+    <string name="label_parallax">Tilt strength</string>
+    <string name="btn_apply">Set live wallpaper</string>
+
+    <string name="step3_title">3 · Add widgets</string>
+    <string name="step3_body">After adding a widget, use its sliders to line the glass up with your wallpaper.</string>
+    <string name="btn_clock">Clock</string>
+    <string name="btn_date">Date</string>
+    <string name="btn_battery">Battery</string>
+    <string name="pin_unsupported">Your launcher cannot add widgets from here. Long-press the home screen and open Widgets.</string>
+
+    <string name="footer">Free forever. No ads. No accounts.</string>
+
+    <string name="widget_clock_label">Glass clock</string>
+    <string name="widget_date_label">Glass date</string>
+    <string name="widget_battery_label">Glass battery</string>
+    <string name="charging">Charging</string>
+    <string name="on_battery">On battery</string>
+
+    <string name="wallpaper_desc">Glass clock behind your photo\'s subject, with tilt depth.</string>
+
+    <string name="cfg_title">Widget glass</string>
+    <string name="cfg_hint">Move X and Y until the preview matches the spot where this widget sits on your home screen.</string>
+    <string name="cfg_blur">Blur</string>
+    <string name="cfg_tint">Frost</string>
+    <string name="cfg_corner">Corner</string>
+    <string name="cfg_x">Position X</string>
+    <string name="cfg_y">Position Y</string>
+    <string name="btn_save">Save</string>
+</resources>
